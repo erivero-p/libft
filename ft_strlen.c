@@ -6,7 +6,7 @@
 /*   By: erivero- <erivero-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/17 13:17:55 by erivero-          #+#    #+#             */
-/*   Updated: 2023/04/24 15:43:47 by erivero-         ###   ########.fr       */
+/*   Updated: 2023/05/01 16:30:15 by erivero-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,12 +21,3 @@ int	ft_strlen(const char *str)
 		i++;
 	return (i);
 }
-
-/* #include	<stdio.h>
-int	main(void)
-{
-	char	*str;
-
-	str = "";
-	printf("hay: %d caracteres", ft_strlen(str)); 
-} */

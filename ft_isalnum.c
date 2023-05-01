@@ -6,7 +6,7 @@
 /*   By: erivero- <erivero-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/17 13:00:20 by erivero-          #+#    #+#             */
-/*   Updated: 2023/04/19 16:04:05 by erivero-         ###   ########.fr       */
+/*   Updated: 2023/05/01 16:26:35 by erivero-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,10 +19,3 @@ int	ft_isalnum(int c)
 		return (1);
 	return (0);
 }
-
-/* #include	<stdio.h>
-
-int	main(void)
-{
-	printf("%i", ft_isalnum(' '));
-} */

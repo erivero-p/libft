@@ -6,7 +6,7 @@
 /*   By: erivero- <erivero-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/25 11:24:56 by erivero-          #+#    #+#             */
-/*   Updated: 2023/04/26 17:40:33 by erivero-         ###   ########.fr       */
+/*   Updated: 2023/05/01 16:29:21 by erivero-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -99,19 +99,3 @@ char	**ft_split(char const *s, char c)
 	str[cuts] = 0;
 	return (str);
 }
-
-/* #include <stdio.h>
-int	main(void)
-{
-	char s1[]= "      split       this for   me  !";
-	char c = ' ';
-	char **res;
-	int i = 0;
-	res = ft_split(s1, c);
-	while (i < ft_cutre(s1, c))
-	{
-		printf("%s\n", res[i]);
-		i++;
-	}
-}
- */

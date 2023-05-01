@@ -6,7 +6,7 @@
 /*   By: erivero- <erivero-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/19 12:47:05 by erivero-          #+#    #+#             */
-/*   Updated: 2023/04/20 11:24:51 by erivero-         ###   ########.fr       */
+/*   Updated: 2023/05/01 16:30:23 by erivero-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,21 +38,3 @@ char	*ft_strnstr(const char *haystack, const char *needle, size_t len)
 	}
 	return (0);
 }
-
-/* #include <stdio.h>
-#include <string.h>
-
-int	main(void)
-{
-	char str[40] = "";
-	char to_find[3] = "gg";
-	char *x;
-
-	x = ft_strnstr(str, to_find, 0);
-	printf("%s\n", x);
-	printf("%s\n", strnstr(str, to_find, 0));
-	printf("%p\n", x);
-	printf("%p", strnstr(str, to_find, 0));
-	return (0);
-}
- */

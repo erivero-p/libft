@@ -6,7 +6,7 @@
 /*   By: erivero- <erivero-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/18 13:49:24 by erivero-          #+#    #+#             */
-/*   Updated: 2023/04/25 09:33:19 by erivero-         ###   ########.fr       */
+/*   Updated: 2023/05/01 16:30:12 by erivero-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,20 +32,3 @@ size_t	ft_strlcpy(char *dst, const char *src, size_t dstsize)
 	}
 	return (j);
 }
-
-/* #include <stdio.h>
-#include <string.h>
-
-int	main(void)
-{
-	char	dest[50] = "no puc no puc";
-	char	src[20] = "12345";
-	int		size;
-
-	size = 5;
-	printf("%zu\n", ft_strlcpy(dest, src, size));
-	printf("%s\n\n", dest);
-	printf("%zu\n", strlcpy(dest, src, size));
-	printf("%s\n\n", dest);
-	
-} */

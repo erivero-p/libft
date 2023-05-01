@@ -6,7 +6,7 @@
 /*   By: erivero- <erivero-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/20 15:49:25 by erivero-          #+#    #+#             */
-/*   Updated: 2023/04/25 09:04:00 by erivero-         ###   ########.fr       */
+/*   Updated: 2023/05/01 16:29:46 by erivero-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -46,11 +46,3 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	join[i + j] = '\0';
 	return (join);
 }
-
-/* #include	<stdio.h>
-
-int	main(void)
-{
-	printf("%s\n", ft_strjoin("fatal", "gracias"));
-	return 0;
-} */

@@ -6,7 +6,7 @@
 /*   By: erivero- <erivero-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/17 14:59:57 by erivero-          #+#    #+#             */
-/*   Updated: 2023/04/17 18:03:25 by erivero-         ###   ########.fr       */
+/*   Updated: 2023/05/01 16:28:57 by erivero-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,19 +24,3 @@ void	*ft_memset(void *str, int c, size_t len)
 		s[i++] = (unsigned char)c;
 	return (str);
 }
-
-/* #include	<stdio.h>
-int	main(void)
-{
-	char	str[10];
-	int		c;
-	size_t	len;
-	char	*ptr;
-
-	ptr = &str[0];
-	c = 78;
-	len = 8;
-
-	printf("%s", ft_memset(ptr, c, len));
-	return 0;
-} */

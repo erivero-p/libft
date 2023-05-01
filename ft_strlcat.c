@@ -6,7 +6,7 @@
 /*   By: erivero- <erivero-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/14 17:58:08 by erivero-          #+#    #+#             */
-/*   Updated: 2023/04/19 17:02:21 by erivero-         ###   ########.fr       */
+/*   Updated: 2023/05/01 16:30:05 by erivero-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,20 +38,3 @@ size_t	ft_strlcat(char *dest, const char *src, size_t size)
 	dest[i] = '\0';
 	return (h);
 }
-
-/* #include <string.h> 
-#include <stdio.h>
-
-int	main(void)
-
-{
-	char	dest[50] = "12345";
-	char	src[] = "12345";
-	int		size;
-
-	size = 2;
-	printf("%zu\n", ft_strlcat(dest, src, size));
-	printf("%s\n\n", dest);
-	printf("%lu\n", strlcat(dest, src, size));
-}
- */

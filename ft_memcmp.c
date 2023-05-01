@@ -6,7 +6,7 @@
 /*   By: erivero- <erivero-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/19 12:03:22 by erivero-          #+#    #+#             */
-/*   Updated: 2023/04/25 09:43:24 by erivero-         ###   ########.fr       */
+/*   Updated: 2023/05/01 16:28:29 by erivero-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,14 +29,3 @@ int	ft_memcmp(const void *s1, const void *s2, size_t n)
 	}
 	return (0);
 }
-
-/* #include <stdio.h>
-#include <string.h>
-int	main(void)
-{
-	char s1[]= "aaaab";
-	char s2[]= "aaaar";
-	printf("%i/n", ft_memcmp(s1, s2, 5));
-	printf("%i", memcmp(s1, s2, 5));
-}
- */

@@ -6,7 +6,7 @@
 /*   By: erivero- <erivero-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/18 17:42:26 by erivero-          #+#    #+#             */
-/*   Updated: 2023/04/25 09:19:03 by erivero-         ###   ########.fr       */
+/*   Updated: 2023/05/01 16:29:35 by erivero-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,14 +26,3 @@ char	*ft_strchr(const char *s, int c)
 		return ((char *)s);
 	return (0);
 }
-
-/* #include <stdio.h>
-#include <string.h>
-int	main(void)
-{
-	const char *str = "";
-	char c = 'a';
-	printf ("%s\n", ft_strchr(str, c));
-	printf ("%s\n", strchr(str, c));
-	return 0;
-} */

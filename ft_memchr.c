@@ -6,7 +6,7 @@
 /*   By: erivero- <erivero-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/19 11:39:51 by erivero-          #+#    #+#             */
-/*   Updated: 2023/04/19 17:38:18 by erivero-         ###   ########.fr       */
+/*   Updated: 2023/05/01 16:28:25 by erivero-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,12 +27,3 @@ void	*ft_memchr(const void *s, int c, size_t n)
 	}
 	return (0);
 }
-
-/* #include <stdio.h>
-int	main(void)
-{
-	const char *str = "holiwiwo";
-	char c = 'w';
-	printf ("%s", ft_memchr(str, c, 9));
-	return 0;
-} */

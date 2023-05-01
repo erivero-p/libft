@@ -6,7 +6,7 @@
 /*   By: erivero- <erivero-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/20 12:48:21 by erivero-          #+#    #+#             */
-/*   Updated: 2023/04/24 10:29:08 by erivero-         ###   ########.fr       */
+/*   Updated: 2023/05/01 16:31:53 by erivero-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,17 +32,3 @@ char	*ft_strdup(const char *s1)
 	}
 	return (s2);
 }
-
-/* #include	<stdio.h>
-#include <string.h>
-
-int	main(void)
-{
-	printf("%p\n", ft_strdup("holiwi"));
-	printf("%s\n", ft_strdup("holiwi"));
-	printf("%s\n", strdup("holiwi"));
-	printf("%p\n", strdup("holiwi"));
-
-	return 0;
-} 
-*/

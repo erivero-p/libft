@@ -6,7 +6,7 @@
 /*   By: erivero- <erivero-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/20 15:11:20 by erivero-          #+#    #+#             */
-/*   Updated: 2023/04/25 09:49:31 by erivero-         ###   ########.fr       */
+/*   Updated: 2023/05/01 16:30:44 by erivero-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,18 +35,3 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	subs[i] = '\0';
 	return (subs);
 }
-
-/* #include	<stdio.h>
-
-int	main(void)
-{
-	char const *s;
-	unsigned int start;
-	size_t	len;
-
-	s = "fatal gracias";
-	start = 2;
-	len = 9;
-	printf("%s\n", ft_substr(s, start, len));
-	return 0;
-} */

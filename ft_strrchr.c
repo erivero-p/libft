@@ -6,7 +6,7 @@
 /*   By: erivero- <erivero-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/18 17:42:26 by erivero-          #+#    #+#             */
-/*   Updated: 2023/04/25 09:16:14 by erivero-         ###   ########.fr       */
+/*   Updated: 2023/05/01 16:30:27 by erivero-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,12 +25,3 @@ char	*ft_strrchr(const char *s, int c)
 	}
 	return (0);
 }
-
-/* #include <stdio.h>
-int	main(void)
-{
-	const char *str = "holiwiwo";
-	char c = 'w';
-	printf ("%s", ft_strrchr(str, c));
-	return 0;
-} */

@@ -6,7 +6,7 @@
 /*   By: erivero- <erivero-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/18 17:28:05 by erivero-          #+#    #+#             */
-/*   Updated: 2023/04/19 17:27:35 by erivero-         ###   ########.fr       */
+/*   Updated: 2023/05/01 16:30:52 by erivero-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,11 +16,3 @@ int	ft_toupper(int c)
 		c -= 32;
 	return (c);
 }
-
-/* #include <stdio.h>
-int	main(void)
-{
-
-	printf ("%i", ft_toupper('c'));
-	return 0;
-} */

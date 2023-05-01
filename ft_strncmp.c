@@ -6,7 +6,7 @@
 /*   By: erivero- <erivero-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/18 18:32:34 by erivero-          #+#    #+#             */
-/*   Updated: 2023/04/25 09:39:26 by erivero-         ###   ########.fr       */
+/*   Updated: 2023/05/01 16:30:20 by erivero-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,12 +25,3 @@ int	ft_strncmp(const char *s1, const char *s2, size_t n)
 		i--;
 	return (((unsigned char *)s1)[i] - ((unsigned char *)s2)[i]);
 }
-
-/* #include <stdio.h>
-int	main(void)
-{
-	char s1[]= "aaaab";
-	char s2[]= "aaaar";
-	printf("%i", ft_strncmp(s1, s2, 5));
-}
- */

@@ -6,44 +6,32 @@
 /*   By: erivero- <erivero-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/20 16:21:19 by erivero-          #+#    #+#             */
-/*   Updated: 2023/04/25 12:42:19 by erivero-         ###   ########.fr       */
+/*   Updated: 2023/05/01 16:32:24 by erivero-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include	<stdlib.h>
-// #include	"libft.h"
-
-static int	ft_strlen(const char *str)
-{
-	int	i;
-
-	i = 0;
-	while (str[i])
-		i++;
-	return (i);
-}
+#include	"libft.h"
 
 static int	top_cmp(char const *s1, char const *set)
 {
-	int	a;
-	int	b;
+	int	i;
+	int	j;
 
-	a = 0;
-	b = 0;
-	while (s1[a])
+	i = 0;
+	while (s1[i])
 	{
-		while (set[b])
+		j = 0;
+		if (s1[i] != set[j])
 		{
-			if (s1[a] == set[b])
+			while (s1[i] != set[j] && set[j])
 			{
-				a++;
-				break ;
+				j++;
+				if (set[j] == '\0')
+					return (i);
 			}
-			b++;
 		}
-		if (b == ft_strlen(set))
-			return (a);
-		b = 0;
+		i++;
 	}
 	return (0);
 }
@@ -97,13 +85,3 @@ char	*ft_strtrim(char const *s1, char const *set)
 	trim[count] = '\0';
 	return (trim);
 }
-
-/* #include <stdio.h>
-int	main(void)
-{
-	char s1[]= "potata petete ñiñiñi";
-	char set[]= "patata";
-	printf("%s\n", ft_strtrim(s1, set));
-	printf("%i", bot_cmp(s1,))
-}
- */

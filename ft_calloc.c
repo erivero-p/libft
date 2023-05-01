@@ -6,7 +6,7 @@
 /*   By: erivero- <erivero-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/20 11:52:45 by erivero-          #+#    #+#             */
-/*   Updated: 2023/04/24 10:22:23 by erivero-         ###   ########.fr       */
+/*   Updated: 2023/05/01 16:26:23 by erivero-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,11 +28,3 @@ void	*ft_calloc(size_t count, size_t size)
 	}
 	return (ptr);
 }
-
-/* #include	<stdio.h>
-int	main(void)
-{
-	printf("%p\n", ft_calloc(4, 8));
-	printf("%p", calloc(4, 8));
-	return 0;
-} */

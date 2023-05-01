@@ -6,7 +6,7 @@
 /*   By: erivero- <erivero-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/21 17:06:28 by erivero-          #+#    #+#             */
-/*   Updated: 2023/04/24 17:16:20 by erivero-         ###   ########.fr       */
+/*   Updated: 2023/05/01 16:27:03 by erivero-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -52,10 +52,3 @@ char	*ft_itoa(int n)
 		num [0] = '-';
 	return (num);
 }
-
-/* #include	<stdio.h>
-int	main(void)
-{
-	printf("%i\n", ft_count(-2147483648));
-	printf("%s", ft_itoa(-2147483648));
-} */
