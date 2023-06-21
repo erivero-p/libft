@@ -1,4 +1,6 @@
 # libft
+Primer proyecto del cursus de 42. Nuestra propia librería, con funciones de carácter general que se irán utilizando en futuros proyectos.
+
 <h3>Project Tree</h3>
 
 ```
